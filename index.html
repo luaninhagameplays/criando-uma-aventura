@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title>ILHA MALDITA</title>
+</head>
+<body>
+        <main>
+        <div class="passo ativo" id="passo-0">
+           <img src="ilha.png" alt="">
+            <p>Você acorda em uma praia deserta após um naufrágio.</p>
+            <button class="btn-proximo" data-proximo="1">Explorar a praia</button>
+            <button class="btn-proximo" data-proximo="2">Ir para a floresta</button>
+        </div>
+        
+        <div class="passo" id="passo-1">
+           <img src="destroços.png" alt="">
+            <p>Caminhando pela praia, você encontra os destroços do barco.</p>
+            <button class="btn-proximo" data-proximo="3">Explorar os destroços</button>
+            <button class="btn-proximo" data-proximo="4">Seguir pela costa</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <img src="floresta.png" alt="">
+            <p>Você se depara com uma floresta densa e estava perdido.</p>
+            <button class="btn-proximo" data-proximo="5">Subir em uma árvore</button>
+            <button class="btn-proximo" data-proximo="6">Continuar andando</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+           <img src="equipamentos.png" alt="">
+            <p>Você encontra uma faca e uma corda.</p>
+            <button class="btn-proximo" data-proximo="7">seguir pela costa</button>
+            <button class="btn-proximo" data-proximo="8">montar um acampamento com os objetos encontados</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+          <img src="caverna.png" alt="">
+            <p>Você encontra uma caverna com sinais de ocupação.</p>
+            <button class="btn-proximo" data-proximo="9">Entrar na caverna</button>
+            <button class="btn-proximo" data-proximo="10">Seguir adiante</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+           <img src="rio.png" alt="">
+            <p>Ao subir na árvore você avista um rio ao norte e resolve ir até lá.</p>
+            <button class="btn-proximo" data-proximo="11">Entrar no rio</button>
+            <button class="btn-proximo" data-proximo="12">Voltar para a praia</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+           <img src="fruta.png" alt="">
+            <p>Ao caminhar pela floresta você estava morrendo de fome e encontra frutinhas. Sem pensar duas vezes você as come e começa a passar mal. MORTE! ERAM VENENOSAS.</p>
+        </div>
+        
+        <div class="passo" id="passo-7">
+          <img src="madeira.png" alt="">
+            <p>Ao seguir pela costa com os objetos encontrados você encontra vários troncos de madeira.</p>
+            <button class="btn-proximo" data-proximo="13"> Montar uma jangada e fugir da ilha</button>
+            <button class="btn-proximo" data-proximo="14">Montar um abrigo</button>
+        </div>
+        
+        <div class="passo" id="passo-8">
+           <img src="tigre.png" alt="">
+            <p>Você monta o acampamento com os objetos e foi dormir no seu novo lar. Durante a noite você escuta um barulho e de repente é atacado por um tigre malhado. MORTE! </p>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="urso.png" alt="">
+            <p>Você entra na caverna escura em sem querer pisa em algo. Era um urso cheio de cicatrizes que estava faminto. MORTE!</p>
+        </div>
+
+        <div class="passo" id="passo-10">
+           <img src="tribo canibal.png" alt="">
+            <p>Seguindo adiante você da de cara com uma tribo canibal que estava prontinha para almoçar. MORTE! </p>
+        </div>
+
+        <div class="passo" id="passo-11">
+           <img src="piranhas.png" alt="">
+            <p>Você entra no rio para se refrescar e beber água mas não percebe que tinha um grupo de piranhas famintas querendo um lanchinho. MORTE!</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="armadilha.png" alt="">
+            <p>Você decide voltar para a praia, estava distraido e não vê que tinha uma armadilha que uma tribo canibal tinha colocado no chão mais cedo. MORTE!</p>
+        </div>
+
+        <div class="passo" id="passo-13">
+          <img src="peixe.png" alt="">
+            <p>Você monta uma jangada e finalmente foge dassa ilha maldita. porém o mar estava muito agitado e um grupo de peixe espadas pula na sua direção e você vira espetinho. MORTE!</p>
+        </div>
+
+        <div class="passo" id="passo-14">
+            <img src="tempestade.png" alt="">
+            <p>Você monta um abrigo com os seus objetos e passa a noite, porém no meio da noite começa uma tempestade imensa e seu abrigo desmorona. Um dos troncos de madeira cai na sua cabeça com muita força e voçê tem um traumatismo craniano. MORTE!</p>
+            <button class="btn-proximo" data-proximo="15">FINAL</button>
+      </div>
+      
+      <div class="passo" id="passo-15">
+        <p>NÃO TEM COMO SAIR DESSA ILHA MALDITA</p>
+    </div>
+    </main>
+        <script src="script.js"></script>
+</body>
+</html>
